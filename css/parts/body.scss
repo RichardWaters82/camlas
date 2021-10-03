@@ -1,0 +1,32 @@
+/*****
+ * Component: Body
+ *****/
+
+body {
+    background: url('/assets/bg-mobile.jpg') no-repeat top left;
+    background-size: cover;
+}
+
+
+
+// called in media-queries.scss
+@mixin body--sm() {
+    
+}
+  
+@mixin body--md() {
+    
+}
+
+@mixin body--lg() {
+    
+    body {
+        background: url('/assets/bg-1920x1280.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+}
+
+@mixin body--xl() {
+    
+}

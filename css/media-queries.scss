@@ -1,0 +1,50 @@
+/**
+ * Breakpoint: small
+ * Default mobile first (no query needed as is the base styling)
+ * Size: ≥576px & <768px
+ **/
+
+
+/**
+ * Breakpoint: extra small
+ * Comes after small as this is for overrides in extreme cases for smallest of devices
+ * Size: <576px
+ **/
+@media (max-width: 576px) {
+
+
+}
+
+
+/**
+ * Breakpoint: medium
+ * Size: ≥768px
+ **/
+@media (min-width: 768px) {
+
+    
+    
+}
+
+
+/**
+ * Breakpoint: large
+ * Size: ≥992px
+ **/
+@media (min-width: 992px) {
+
+    @include body--lg();
+    @include introduction--lg();
+
+
+}
+
+
+/**
+ * Breakpoint: extra large
+ * Size: ≥1200px
+ **/
+@media (min-width: 1200px) {
+
+
+}

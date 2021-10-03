@@ -1,0 +1,28 @@
+/*
+Theme Name: Camlas
+Author: Richard Waters
+Description: Custom theme for Camlas
+Version: 0.0.1
+Tags: Consultancy, Digital Transformation
+*/
+
+@import 'reset';
+@import 'variables';
+@import 'elements';
+@import 'useful-classes';
+
+
+/* Parts */ 
+@import 'parts/body';
+@import 'parts/introduction';
+
+
+
+/* Media Queries */
+@import 'media-queries'; /* base file for mobile */
+
+
+/* Font Awesome */
+@import "fa-scss/fontawesome";
+@import "fa-scss/solid";
+@import "fa-scss/brands";

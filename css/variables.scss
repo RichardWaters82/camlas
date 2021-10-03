@@ -1,0 +1,50 @@
+/* Font Awesome - font path */ 
+$theme-path: "/";
+
+/*
+    FONTS:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+*/
+$opensans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+
+/*
+    COLOURS:
+    Col Red : main pci red colour - used on fonts and bgs
+    Col Grey : lighter grey
+    Col Text : darker grey for body text
+*/
+$col-red: #d01222;
+$col-grey: #525d69;
+$col-text: #383d42;
+$col-page-text: #737a80;
+$col-grey-light: #abb1b7;
+$col-grey-dark: #2a2f33;
+$col-line: #676b70;
+
+
+
+/*
+    GRADIENTS:
+*/
+// @mixin red-gradient{
+//     background: rgb(150,14,25);
+//     background: linear-gradient(90deg, rgba(150,14,25,1) 0%, rgba(206,18,34,1) 100%);
+// }
+
+
+body {
+    background: url('/assets/bg-mobile.jpg') no-repeat top left;
+    background-size: cover;
+}
+
+@mixin body--lg() {
+
+    body {
+        background: url('/assets/bg-1920x1280.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    
+}
