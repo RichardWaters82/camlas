@@ -27,7 +27,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 */
 /* GRADIENTS:
 */
-body { background: url("assets/bg-mobile.jpg") no-repeat top left; background-size: cover; }
+body { background: url("./assets/bg-mobile.jpg") no-repeat top left; background-size: cover; }
 
 /* General styles */
 body { font-family: "Open Sans", sans-serif; }
@@ -67,7 +67,7 @@ sup { font-size: 13px; }
 
 /* Parts */
 /***** Component: Body ****/
-body { background: url("assets/bg-mobile.jpg") no-repeat top left; background-size: cover; }
+body { background: url("./assets/bg-mobile.jpg") no-repeat top left; background-size: cover; }
 
 /***** Component: Introduction ****/
 #introduction { position: relative; height: 100vh; }
@@ -82,7 +82,7 @@ body { background: url("assets/bg-mobile.jpg") no-repeat top left; background-si
 /** Breakpoint: extra small Comes after small as this is for overrides in extreme cases for smallest of devices Size: <576px */
 /** Breakpoint: medium Size: ≥768px */
 /** Breakpoint: large Size: ≥992px */
-@media (min-width: 992px) { body { background: url("assets/bg-1920x1280.jpg") no-repeat center center; background-size: cover; }
+@media (min-width: 992px) { body { background: url("./assets/bg-1920x1280.jpg") no-repeat center center; background-size: cover; }
   #introduction p { font: normal bold 75px "Open Sans", sans-serif; line-height: 82px; }
   #introduction p:last-child { font: normal 400 50px "Roboto", sans-serif; }
   #introduction .vertical-align { top: 20%; transform: perspective(1px) translateY(-20%); } }
